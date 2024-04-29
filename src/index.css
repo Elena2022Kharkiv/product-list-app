@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 50px;
+  font-family: sans-serif;
+  background: #fcfafa;
+}
+
+.container {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+label {
+  display: block;
+}
+
+.products-list__select,
+.products-add-form__select,
+.products-edit-form__select {
+  margin: 30px 0 20px;
+  padding: 10px; 
+  border: 2px solid silver;
+  border-radius: 3px;
+  font-weight: bold;
+  outline: none;
+}
+
+.products-list__item,
+.products-list__total {
+  display: flex;
+  align-items: center;
+  padding: 7px; 
+  margin-bottom: 10px;
+  border: 1px solid silver;
+  border-radius: 3px;
+  background: white;
+  font-weight: bold;
+}
+
+.products-list__item span {
+  font-weight: 500;
+}
+
+button {
+  border: 1px solid silver;
+  border-radius: 3px;
+  background: white;
+  font-weight: bold;
+  padding: 5px;
+}
+
+button:hover,
+select:hover {
+  cursor: pointer;
+  background: #f3f1f1;
+}
+
+.products-list__btn_edit {
+  display: block;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.products-list__btn_add {
+  margin-left: 10px;
+  padding: 10px;
+  border: 2px solid silver;
+}
+
+.products-add-form, 
+.products-edit-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.products-add-form__btn,
+.products-edit-form__btn {
+  height: 40px;
+  border: 2px solid rgb(154, 153, 153);
+  padding: 0 10px;
+}
+
+.products-add-form__select,
+.products-edit-form__select {
+  width: 120px;
+  height: 40px;
+  margin: 0;
+  border: 2px solid rgb(154, 153, 153);
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 2px solid rgb(154, 153, 153);
+  outline: none;
+}
+
+.products-add-form__input_price,
+.products-edit-form__input_price {
+  width: 150px;  
+}
+
+.products-add-form__message,
+.products-edit-form__message {
+  display: none;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: red;
+  border: 2px solid red;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 30px;
+  list-style-type: none;
+}
+
+.pagination li {
+  border: 2px solid #999;
+  border-radius: 2px;
+  padding: 2px 7px;
+  margin-right: 1px;
+}
+
+.pagination li:hover {
+  cursor: pointer; 
+  background-color: #e5e3e3; 
+}
+  
+.showMessage {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.active {
+  background-color: rgb(200, 184, 184); 
+  font-weight: bold; 
+}
